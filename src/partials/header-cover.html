@@ -3,9 +3,9 @@
 
   <header>
     <h1 id="headline">{{ headline }}</h1>
-    <h1 id="dek">{{ dek }}</h1>
+    
     <if condition="typeof deck !== 'undefined'">
-      <p id="dek">{{ dek }}</p>
+      <h1 id="dek">{{ dek }}</h1>
     </if>
     <p class="byline">{{{ byline }}}</p>
     
@@ -16,7 +16,11 @@
   </header>
 </div>
 
-<p class="cover-caption">{{{ cover_caption }}}</p>
+<if condition="typeof cover_caption !== 'undefined'">
+  <p class="cover-caption">{{{ cover_caption }}}</p>
+</if>
+
+
 
 <div class="g-body">
   <p class="inline-credits">

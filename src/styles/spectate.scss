@@ -46,6 +46,8 @@ $fade-transition-duration: 0.25s;
   font-weight: 600;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 /* Basic styles for elements and common Spectate classes */
 
 body {
@@ -103,8 +105,8 @@ b {
 
 .cover {
   width: 100%;
-  height: 100vh;
-  margin-bottom: 40px;
+  height: 40vh;
+  margin-bottom: 300px;
 
   img {
     width: 100%;
@@ -175,7 +177,7 @@ header {
     font-size: 45px;
     line-height: 1.15;
     font-weight: 500;
-    font-family: Playfair Display;
+    font-family: "Open Sans", sans-serif;
   }
 
   .deck {
@@ -504,8 +506,9 @@ header {
  
 
 .graphic {
-  margin: 30px auto;
+  margin: 0px auto;
 }
+// MOLLY: CHANGED TIS FROM 30 TO 0 PX
 
 .story-top .graphic:only-child {
   margin: 0;
@@ -517,7 +520,7 @@ header {
   p {
     font-family: $graphik;
     color: rgba(0, 0, 0, 0.7);
-    font-size: 15px;
+    font-size: 20px;
     line-height: 22px;
   }
 

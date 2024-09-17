@@ -19,7 +19,7 @@ function init() {
 /* These are selectors for important elements */
 
 // SECTION_MAIN_SELECTOR is the node on the page we want to replace
-const SECTION_MAIN_SELECTOR = 'div#fusion-app > div';
+const SECTION_MAIN_SELECTOR = 'div#fusion-app > section > div:nth-child(-n+3)';
 
 // ARTICLE_SELECTOR is where Arc Publishing puts the actual article content
 const ARTICLE_SELECTOR = 'div#fusion-app > div > div';
